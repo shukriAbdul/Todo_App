@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  background-color: skyblue;
+}
+h1 {
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+form {
+  margin-top: 5%;
+  margin-left: 30rem;
+}
+label {
+  font-size: 20px;
+}
+input {
+  margin-top: 12px;
+  width: 400px;
+  padding: 12px;
+  outline: none;
+  border: none;
+}
+button {
+  background-color: brown;
+  width: 50px;
+  height: 40px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+.Items_parent {
+  display: flex;
+  width: 455px;
+
+  margin-top: 10px;
+  background-color: white;
+  margin-left: 35%;
+}
+.Items {
+  padding: 12px;
+}
